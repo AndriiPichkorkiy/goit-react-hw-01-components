@@ -1,0 +1,35 @@
+.transaction-history {
+  width: 40rem;
+  min-height: 5rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  border: 2px solid var(--accent-color2);
+  overflow: hidden;
+
+  box-shadow: var(--shadow-general);
+}
+
+.transaction-history > thead {
+  margin: 0;
+
+  background-color: var(--accent-color2);
+  color: var(--accent-color1);
+}
+
+.transaction-history > tbody {
+  text-align: center;
+}
+
+tbody > tr:hover {
+  background-color: var(--accent-color1);
+}
+
+tbody > tr {
+  color: var(--accent-color3);
+}
+
+th,
+td {
+  border: 1px solid #bbb;
+  padding: 2rem;
+}
